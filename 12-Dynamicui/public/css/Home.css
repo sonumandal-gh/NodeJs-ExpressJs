@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #ebdddd;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ff5a5f, #fc642d);
+  color: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Main Content */
+main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Button */
+main a {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.7rem 1.5rem;
+  background: #ff5a5f;
+  color: rgb(37, 32, 32);
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+main a:hover {
+  background: #e0484d;
+  transform: translateY(-2px);
+}
+
+/* Home List */
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+ul li {
+  background: #361b1b;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  background: #df1111;
+  transform: scale(1.02);
+}

@@ -1,0 +1,71 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body Background ===== */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+}
+
+/* ===== Success Box ===== */
+.success-box {
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.8s ease-in-out;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* ===== Heading ===== */
+.success-box h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #2ecc71; /* Green */
+}
+
+/* ===== Paragraph ===== */
+.success-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ===== Button (Link) ===== */
+.success-box a {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2ecc71;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.success-box a:hover {
+  background: #27ae60;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
